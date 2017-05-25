@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "Muximux",
+    "port": "3000",
+    "version": 2
+  },
+  "services": [
+    {
+      "_id": "1",
+      "name": "Sonarr",
+      "url": "http://10.0.1.11:8989",
+      "icon": "glyphicon glyphicon-calendar",
+      "sort": 0,
+      "default": true
+    },
+    {
+      "_id": "2",
+      "name": "CouchPotato",
+      "url": "http://10.0.1.10:5050",
+      "icon": "fa fa-television",
+      "sort": 1,
+      "default": false
+    },
+    {
+      "_id": "3",
+      "name": "HeadPhones",
+      "url": "http://10.0.1.10:8181",
+      "icon": "glyphicon glyphicon-headphones",
+      "sort": 2,
+      "default": false
+    },
+    {
+      "_id": "4",
+      "name": "NZBGet",
+      "url": "http://10.0.1.11:6789",
+      "icon": "fa fa-download",
+      "sort": 3,
+      "default": false
+    },
+    {
+      "_id": "5",
+      "name": "Plex",
+      "url": "http://10.0.1.11:32400/web",
+      "icon": "fa fa-play-circle",
+      "sort": 1,
+      "default": false
+    },
+    {
+      "_id": "6",
+      "name": "pi-hole 1",
+      "url": "http://10.0.1.11/admin",
+      "icon": "fa fa-play-circle",
+      "sort": 4,
+      "default": false
+    },
+    {
+      "_id": "7",
+      "name": "pi-hole 2",
+      "url": "http://10.0.1.11/admin",
+      "icon": "fa fa-play-circle",
+      "sort": 4,
+      "default": false
+    },
+    {
+      "_id": "8",
+      "name": "rpi stats",
+      "url": "http://10.0.1.10:2001/rpi",
+      "icon": "fa fa-play-circle",
+      "sort": 3,
+      "default": false
+    },
+    {
+      "_id": "9",
+      "name": "WNDR3700V3",
+      "url": "http://10.0.1.1",
+      "icon": "fa fa-play-circle",
+      "sort": 3,
+      "default": false
+    },
+    {
+      "_id": "10",
+      "name": "R6200v2",
+      "url": "http://10.0.1.2",
+      "icon": "fa fa-play-circle",
+      "sort": 3,
+      "default": false
+    }
+  ]
+}
